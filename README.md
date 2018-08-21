@@ -1,5 +1,5 @@
 #Editor Shortcuts
-
+* CMD + P - Fuzzy Finder - Quick jump to files
 * CMD + D - Selects current word and all subsequent matches
 * CMD + CTRL + G - Selects all occrurences
 * CMD + F - Brings up search box and searches file
@@ -14,6 +14,12 @@
 * history - See all commands typed in this shell
 
 #Git Tips/Tricks
-* Git add -p    -Patch through changes to organize your staging
-* 
+* git add -p    -Patch through changes to organize your staging
+
+* git config --global alias.st status
+* git config --global alias.alias "config --get-regexp ^alias\."
+* git alias
+* hub browse
+* hub compare
+
 
