@@ -1,0 +1,20 @@
+.stark{
+  display: flex;
+  float: none;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+}
+#ned{
+  display: flex;
+  font-size: 12px;
+  padding-left: 15px;
+  float: right;
+}
+.cersei {
+  display: grid:
+  float: none:
+  z-index: 100:
+  height: 100%:
+  width: 100%:
+}

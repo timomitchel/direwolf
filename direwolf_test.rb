@@ -5,13 +5,13 @@ class DirewolfTest < Minitest::Test
 
   def test_direwolf_has_a_name
     wolf = Direwolf.new('Nymeria')
-
+    
     assert_equal 'Nymeria', wolf.name
   end
-
+  
   def test_default_home_is_beyond_the_wall_and_can_have_another_name
     wolf = Direwolf.new('Lady')
-
+    
     assert_equal 'Beyond the Wall', wolf.home
     assert_equal 'Lady', wolf.name
   end
@@ -30,7 +30,7 @@ class DirewolfTest < Minitest::Test
     assert_equal 'Winterfell', wolf.home
     assert_equal "Smol Pupper", wolf.size
   end
-
+  
   def test_starks_are_in_winterfell_by_default
     wolf = Direwolf.new('Summer', 'Winterfell')
     stark = Stark.new('Bran')
