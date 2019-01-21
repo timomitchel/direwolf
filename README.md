@@ -1,4 +1,4 @@
-#TD: 
+### Todo: 
 1. Visit this URL - https://github.com/timomitchel/direwolf - click the fork button
 2. In your terminal: cd into a directory that you want this repo to live in 
 3. Paste this into your terminal: `git clone https://github.com/your_username/direwolf.git`- THIS LINK WILL NOT WORK - replace "your_username" with your username
@@ -8,7 +8,7 @@
 
 
 
-#Editor Shortcuts
+### Editor Shortcuts
 * CMD + P - Fuzzy Finder - Quick jump to files
 * CMD + D - Selects current word and all subsequent matches
 * CMD + CTRL + G - Selects all occrurences
@@ -19,12 +19,12 @@
 * CMD + C, CMD + V - Copy the line you're on and paste it to a new line below
 * CMD Z - Undo
 
-#Terminal Shorcuts
+### Terminal Shorcuts
 * CTRL + U - Delete all text
 * CMD + K - Clear Terminal - Move Cursor to top
 * history - See all commands typed in this shell
 
-#Git Tips/Tricks
+### Git Tips/Tricks
 * git add -p    -Patch through changes to organize your staging
 
 * git config --global alias.alias "config --get-regexp ^alias\."
